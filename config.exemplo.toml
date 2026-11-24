@@ -1,0 +1,10 @@
+# Copie para config.toml e ajuste. Use com: --config config.toml
+fc_max = 190            # sua frequência cardíaca máxima, em bpm
+zona2_pct_min = 60      # faixa de zona 2, em % da FC máxima
+zona2_pct_max = 70
+# zona2_bpm = [114, 133] # alternativa: faixa direta em bpm (substitui as porcentagens)
+min_generica_min = 20   # atividade genérica de aparelho secundário só conta se durar isto
+cobertura_baixa_pct = 50
+palavras_relogio = ["watch", "relógio", "relogio"] # trechos do nome da fonte do relógio
+fuso_horas = -3         # fuso em horas relativo ao UTC
+titulo = "Painel de saúde"

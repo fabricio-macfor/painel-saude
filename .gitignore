@@ -1,0 +1,18 @@
+# Exports reais: nunca versionar
+*.zip
+export.xml
+export_cda.xml
+*.csv
+apple_health_export/
+meus_dados/
+config.toml
+# Exceção: os dados falsos de exemplo
+!dados_exemplo/export.zip
+!dados_exemplo/zepp_sport.csv
+
+# Ambiente
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
